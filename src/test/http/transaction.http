@@ -5,7 +5,17 @@ Content-Type: application/json
 {
   "userId": 1,
   "accountNumber": "1000000002",
-  "amount": 20000
+  "amount": 100
+}
+
+### use ballance2
+POST http://localhost:8080/transaction/use
+Content-Type: application/json
+
+{
+  "userId": 1,
+  "accountNumber": "1000000002",
+  "amount": 100
 }
 
 ### cancel ballance
@@ -13,9 +23,9 @@ POST http://localhost:8080/transaction/cancel
 Content-Type: application/json
 
 {
-  "transactionId": "2e172a80a2e049b3b8b5c0b9b99136bb",
+  "transactionId": "783c1a81de7b475d866c5c39db9fd98a",
   "accountNumber": "1000000002",
-  "amount": 30000
+  "amount": 100
 }
 
 ### query transaction
