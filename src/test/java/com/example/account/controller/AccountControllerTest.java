@@ -90,7 +90,7 @@ class AccountControllerTest {
     }
 
     @Test
-    void successGetAccountsById() throws Exception {
+    void successGetAccountsByUserId() throws Exception {
         //given
         List<AccountDto> accountDtos =
                 Arrays.asList(AccountDto.builder()
